@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title>Fantasy Wrestling</title>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#313641" />
+      <stop offset="55%" stop-color="#07111f" />
+      <stop offset="100%" stop-color="#020408" />
+    </linearGradient>
+    <radialGradient id="blue" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#9de7ff" />
+      <stop offset="35%" stop-color="#4ca3ff" />
+      <stop offset="100%" stop-color="#0c2f76" />
+    </radialGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="url(#bg)" />
+  <ellipse cx="64" cy="84" rx="38" ry="12" fill="#08162c" stroke="#8ad8ff" stroke-opacity=".75" stroke-width="3" />
+  <circle cx="64" cy="40" r="10" fill="url(#blue)" />
+  <circle cx="82" cy="54" r="8" fill="url(#blue)" />
+  <path d="M45 50c8 3 9 20 24 23" fill="none" stroke="#8ad8ff" stroke-width="6" stroke-linecap="round" />
+  <path d="M88 50c-8 3-10 17-22 23" fill="none" stroke="#4ca3ff" stroke-width="6" stroke-linecap="round" />
+</svg>
